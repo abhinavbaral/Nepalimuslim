@@ -1,19 +1,21 @@
+'use client'
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './HomePage';
-import SignUpPage from './SignUpPage';
-import UserPage from './UserPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Homepage from '@/components/Homepage'
+import Signuppage from '@/components/Signuppage';
+import Userpage from '@/components/Userpage';
 
-function App() {
+
+function page() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/signup" component={SignUpPage} />
-        <Route path="/user" component={UserPage} />
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact component={Homepage} />
+        <Route path="/signup" component={Signuppage} />
+        <Route path="/user" component={Userpage} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export default page;

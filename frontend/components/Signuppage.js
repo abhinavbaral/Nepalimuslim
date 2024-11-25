@@ -1,8 +1,10 @@
+'use client'
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
+ 9
 
-function SignUpPage() {
+function Signuppage() {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
@@ -65,4 +67,4 @@ function SignUpPage() {
   );
 }
 
-export default SignUpPage;
+export default Signuppage;
