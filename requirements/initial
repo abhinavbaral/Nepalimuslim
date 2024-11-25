@@ -1,0 +1,27 @@
+1. Initial page, home page
+	sign up
+	log in
+2. Sign up
+	E-mail:		
+	Phone:
+			Register: (After clicking here, validation link will be sent to email)			
+					User click the validation link / OTP
+					Redirected to the userpage
+3. Submit the form: form includes:
+	
+STEP1	First Name:
+	Middle Name:
+	Last Name:
+	DOB:Months/Day/Year AD
+	Birth Place: 
+	Permanent Address:
+	Temp Address:
+
+STEP2	Upload: 
+	Pic
+	Citizenship/Naya card/Passport:
+	
+	SUBMIT
+[username password received in email ]
+
+4. Again he/she logs in

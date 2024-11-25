@@ -1,0 +1,12 @@
+Home Page
+
+[Sign Up] → Sign Up Page
+[Log In] → Log In Page
+Sign Up Page
+
+Input: E-mail, Phone
+[Register] → Send Validation Link/OTP
+Email/OTP Validation
+
+User clicks the link or enters OTP
+[Validated] → User Page
